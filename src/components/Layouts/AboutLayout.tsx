@@ -21,7 +21,9 @@ const AboutLayout: React.FC<Props> = ({ post }) => {
       <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
         <div className="xl:col-span-2">
           <article className="prose max-w-none pt-8 pb-8 text-primary-700 prose-a:text-secondary hover:prose-a:text-primary-900">
-            <ReactMarkdown children={post.content} remarkPlugins={[Breaks]} />
+            <ReactMarkdown remarkPlugins={[Breaks]}>
+              {post.content}
+            </ReactMarkdown>
           </article>
         </div>
       </div>

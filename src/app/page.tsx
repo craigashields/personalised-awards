@@ -16,7 +16,7 @@ export default async function Home() {
       <BestSellers></BestSellers>
       <section className="container border-b px-10 md:px-28 lg:px-28 xl:px-32 2xl:px-36 py-12 m-auto overflow-hidden rounded-xl bg-wuiSlate-50 p-4 pb-12 sm:p-16 sm:pb-16 [&>*]:w-full">
         <p className="text-center text-emerald-500 pb-16 font-bold font-poppins text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-4xl">
-          Don't take our word for it!
+          {`Don't take our word for it!`}
         </p>
         <TestimonialCarousel testimonials={testimonials}></TestimonialCarousel>
       </section>

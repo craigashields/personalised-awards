@@ -44,7 +44,7 @@ export default async function ContactPage({
               </svg>
               <div className="relative bg-white rounded shadow-2xl p-7 sm:p-10">
                 <h3 className="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl">
-                  We're here to help.
+                  {`We're here to help.`}
                 </h3>
                 <form action="https://formsubmit.co/" method="POST">
                   <div className="mb-1 sm:mb-2">

@@ -3,20 +3,10 @@ import React from "react";
 import AboutLayout from "@/components/Layouts/AboutLayout";
 import { getPostData } from "../lib/post-utils";
 
-// export const getStaticProps: GetStaticProps = async (
-//     context: GetStaticPropsContext
-//   ) => {
-//     // @ts-ignore
-//     const slug = "about"; //context.params;
-//     const postData = getPostData(slug);
-//     return {
-//       props: {
-//         post: postData,
-//       },
-//       // regenerate after every 600s(10mins)
-//       revalidate: 600,
-//     };
-//   };
+export const metadata = {
+  title: "About",
+  description: "Learn about Personalised Awards and our drive for excellence.",
+};
 
 const About = async () => {
   const slug = "about"; //context.params;

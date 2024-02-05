@@ -6,6 +6,14 @@ import testimonials from "@/data/testimonials";
 import gallery from "@/data/gallery";
 import Hero from "@/components/Hero";
 
+export const metadata = {
+  description:
+    "Discover premium quality, customizable acrylic trophies at Personalised Awards – your go-to destination for bespoke awards that celebrate every achievement with a touch of elegance and innovation.",
+  openGraph: {
+    type: "website",
+  },
+};
+
 export default async function Home() {
   return (
     <main className="">

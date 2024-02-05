@@ -26,11 +26,6 @@ const TestimonialCarousel = (props: Iprops) => {
         nav: {
           active: "[&>*]:bg-wuiSlate-700",
         },
-        // swipeable: "[&>*]:bg-wuiSlate-700",
-        // dragging: "[&>*]:bg-wuiSlate-700",
-        // direction: {
-        //   ltr: "[&>*]:bg-wuiSlate-700",
-        //   rtl: "[&>*]:bg-wuiSlate-700"}
       } as any,
       breakpoints: {
         1024: {

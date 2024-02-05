@@ -1,6 +1,5 @@
 import React from "react";
 import headerNavLinks from "@/data/headerNavLinks";
-
 export default function Footer({
   children,
 }: Readonly<{
@@ -22,7 +21,7 @@ export default function Footer({
                   id="WindUI-5-logo"
                   aria-label="WindUI logo"
                   aria-current="page"
-                  className="mb-6 flex items-center gap-2 whitespace-nowrap text-base font-medium leading-6 text-slate-700 focus:outline-none"
+                  className="mb-6 flex relative items-center gap-2 whitespace-nowrap text-base font-medium leading-6 text-slate-700 focus:outline-none"
                   href="/"
                 >
                   <img

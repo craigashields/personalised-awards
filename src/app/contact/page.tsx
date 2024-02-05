@@ -13,7 +13,7 @@ export default async function ContactPage({
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-purple-500 sm:text-4xl sm:leading-none">
               Contact us, <br className="hidden md:block" />
               for a quote{" "}
-              <span className="text-teal-accent-400">
+              <span className="text-purple-500">
                 and to discuss your needs.
               </span>
             </h2>
@@ -46,7 +46,22 @@ export default async function ContactPage({
                 <h3 className="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl">
                   {`We're here to help.`}
                 </h3>
-                <form action="https://formsubmit.co/" method="POST">
+                <form
+                  action={`https://formsubmit.co/d20e941622477c206b96aea1adc6e5fd`}
+                  method="POST"
+                >
+                  <input type="hidden" name="_next" value="/thanks" />
+                  <input
+                    type="hidden"
+                    name="_subject"
+                    value="New Website Enquiry!"
+                  />
+                  <input
+                    type="hidden"
+                    name="_autoresponse"
+                    value="your custom message"
+                  />
+                  <input type="hidden" name="_template" value="box" />
                   <div className="mb-1 sm:mb-2">
                     <label
                       htmlFor="name"
@@ -92,6 +107,7 @@ export default async function ContactPage({
                       rows={4}
                       className="block p-2.5 w-full px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-purple-400 focus:outline-none focus:shadow-outline"
                       placeholder="Leave us a message..."
+                      name="message"
                     ></textarea>
                   </div>
                   <div className="mt-4 mb-2 sm:mb-4">

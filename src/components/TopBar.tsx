@@ -30,7 +30,7 @@ export default function TopBar() {
                   clipRule="evenodd"
                 />
               </svg>
-              {siteMetadata.telephone}
+              <span className="hidden sm:block">{siteMetadata.telephone}</span>
             </a>
           </div>
           <div className="col-span-2 items-center justify-end gap-6 md:col-span-4 lg:col-span-6">

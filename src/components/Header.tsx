@@ -72,7 +72,7 @@ const Header = () => {
                 <a
                   role="menuitem"
                   aria-haspopup="false"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:border-b-2 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:border-b-2 focus:border-b-2 focus:outline-none focus-visible:outline-none lg:px-8 "
                   href={link.href}
                 >
                   <span>{link.title}</span>

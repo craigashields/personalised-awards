@@ -22,6 +22,16 @@ export function ProductDescription({ product }: { product: any }) {
             html={product.description}
           />
         ) : null}
+        {product.externalUrl ? (
+          <a
+            href={product.externalUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex justify-center items-center py-3 mt-4 px-5 text-base font-medium text-center text-white rounded-lg bg-emerald-500 hover:bg-emerald-800 focus:ring-4 focus:ring-emerald-300"
+          >
+            Brochure
+          </a>
+        ) : null}
       </div>
       {/* <VariantSelector options={product.options} variants={product.variants} /> */}
       <ProductFeatures features={product.features}></ProductFeatures>

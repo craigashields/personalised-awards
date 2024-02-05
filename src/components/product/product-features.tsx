@@ -18,7 +18,7 @@ export function ProductFeatures({ features }: { features: string[] }) {
 
             <div className="flex min-h-[2rem] flex-col items-start justify-center gap-0">
               <label
-                className="cursor-pointer text-base text-slate-700"
+                className="cursor-pointer text-sm md:text-base lg:text-base text-slate-700"
                 htmlFor="id-a01"
               >
                 {feature}

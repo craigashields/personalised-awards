@@ -20,7 +20,7 @@ export default async function Home() {
         </p>
         <TestimonialCarousel testimonials={testimonials}></TestimonialCarousel>
       </section>
-      <section className="container-none py-10 px-20 md:px-28 lg:px-28 xl:px-32 2xl:px-36 m-auto pb-16">
+      <section className="container-none py-10 px-10 md:px-28 lg:px-28 xl:px-32 2xl:px-36 m-auto pb-16">
         <p className="text-center text-black pb-2 font-semibold font-poppins text-md md:text-lg lg:text-xl xl:text-1xl 2xl:text-2xl">
           Share your memories
         </p>

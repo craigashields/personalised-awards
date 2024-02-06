@@ -4,4 +4,13 @@ const headerNavLinks = [
   { href: "/contact", title: "Contact Us" },
 ];
 
-export default headerNavLinks;
+const helpLinks = [
+  {
+    contentSlug: "paymentoptions",
+  },
+  {
+    contentSlug: "deliveryinformation",
+  },
+];
+
+export { headerNavLinks, helpLinks };

@@ -1,6 +1,10 @@
 import React from "react";
-import headerNavLinks from "@/data/headerNavLinks";
-export default function Footer({
+import { headerNavLinks } from "@/data/navLinks";
+import ModalLink from "./ModalLink";
+import { getPostData } from "@/app/lib/post-utils";
+import HelpNav from "./HelpNav";
+
+export default async function Footer({
   children,
 }: Readonly<{
   children: React.JSX.Element;
@@ -58,43 +62,7 @@ export default function Footer({
                   ))}
                 </ul>
               </nav>
-              <nav
-                className="col-span-2 md:col-span-4 lg:col-span-2"
-                aria-labelledby="footer-docs-5-logo"
-              >
-                <h3
-                  className="mb-6 text-base font-medium text-slate-700"
-                  id="footer-docs-5-logo"
-                >
-                  Help
-                </h3>
-                <ul>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="/payment-options"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Payment Options
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="/delivery-info"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Delivery Information
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="Returns"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Returns Policy
-                    </a>
-                  </li>
-                </ul>
-              </nav>
+              <HelpNav></HelpNav>
             </div>
           </div>
         </div>

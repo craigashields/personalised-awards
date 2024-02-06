@@ -1,6 +1,6 @@
 "use client";
 import { siteMetadata } from "@/data/siteMetadata";
-import headerNavLinks from "@/data/headerNavLinks";
+import { headerNavLinks } from "@/data/navLinks";
 import { useState } from "react";
 //import Link from './Link'
 

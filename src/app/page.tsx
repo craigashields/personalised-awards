@@ -1,9 +1,9 @@
 import BestSellers from "@/components/BestSellers";
 import TestimonialCarousel from "@/components/Carousel";
 import Features from "@/components/Features";
-import Gallery from "@/components/SocialGallery";
+import Gallery from "@/components/MasonGallery";
 import testimonials from "@/data/testimonials";
-import gallery from "@/data/gallery";
+import { gallery } from "@/data/gallery";
 import Hero from "@/components/Hero";
 
 export const metadata = {

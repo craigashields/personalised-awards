@@ -1,4 +1,4 @@
-"use client";
+import ContactUs from "@/components/contact/contact-form";
 
 export default async function ContactPage({
   params,
@@ -46,80 +46,7 @@ export default async function ContactPage({
                 <h3 className="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl">
                   {`We're here to help.`}
                 </h3>
-                <form
-                  action={`https://formsubmit.co/d20e941622477c206b96aea1adc6e5fd`}
-                  method="POST"
-                >
-                  <input type="hidden" name="_next" value="/thanks" />
-                  <input
-                    type="hidden"
-                    name="_subject"
-                    value="New Website Enquiry!"
-                  />
-                  <input
-                    type="hidden"
-                    name="_autoresponse"
-                    value="your custom message"
-                  />
-                  <input type="hidden" name="_template" value="box" />
-                  <div className="mb-1 sm:mb-2">
-                    <label
-                      htmlFor="name"
-                      className="inline-block mb-1 font-medium"
-                    >
-                      Name
-                    </label>
-                    <input
-                      placeholder="John Doe"
-                      required
-                      type="text"
-                      className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-purple-400 focus:outline-none focus:shadow-outline"
-                      id="name"
-                      name="name"
-                    />
-                  </div>
-
-                  <div className="mb-1 sm:mb-2">
-                    <label
-                      htmlFor="email"
-                      className="inline-block mb-1 font-medium"
-                    >
-                      E-mail
-                    </label>
-                    <input
-                      placeholder="john.doe@example.org"
-                      required
-                      type="text"
-                      className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-purple-400 focus:outline-none focus:shadow-outline"
-                      id="email"
-                      name="email"
-                    />
-                  </div>
-                  <div className="mb-1 sm:mb-2">
-                    <label
-                      htmlFor="message"
-                      className="inline-block mb-1 font-medium"
-                    >
-                      Your message
-                    </label>
-                    <textarea
-                      id="message"
-                      rows={4}
-                      className="block p-2.5 w-full px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-purple-400 focus:outline-none focus:shadow-outline"
-                      placeholder="Leave us a message..."
-                      name="message"
-                    ></textarea>
-                  </div>
-                  <div className="mt-4 mb-2 sm:mb-4">
-                    <button
-                      type="submit"
-                      disabled
-                      className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-500 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
-                    >
-                      Send
-                    </button>
-                  </div>
-                </form>
+                <ContactUs></ContactUs>
               </div>
             </div>
           </div>

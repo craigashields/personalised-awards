@@ -99,6 +99,10 @@ const products = [
         url: "https://i.postimg.cc/763DGy51/gallery-5.jpg",
         altText: "Shirt Award Moore United",
       },
+      {
+        url: "https://i.postimg.cc/SNpHMS6H/shirt-award-wga.jpg",
+        altText: "Shirt Award WGA",
+      },
     ],
     bestSeller: false,
   },
@@ -118,8 +122,12 @@ const products = [
       "Add your personalised text",
     ],
     featuredImage:
-      "https://i.postimg.cc/Gh1NkJky/special-block-transparent.png",
+      "https://i.postimg.cc/y8bYy3YL/special-block-transparent2.png",
     images: [
+      {
+        url: "https://i.postimg.cc/y8bYy3YL/special-block-transparent2.png",
+        altText: "Special Block Rylands F.C",
+      },
       {
         url: "https://i.postimg.cc/Gh1NkJky/special-block-transparent.png",
         altText: "Special Block",
@@ -193,10 +201,10 @@ const products = [
       "Add your personalised text",
     ],
     featuredImage:
-      "https://i.postimg.cc/fRLD7m9M/traditional-award-transparent.png",
+      "https://i.postimg.cc/1zVRCR8s/traditional-award-transparent2.png",
     images: [
       {
-        url: "https://i.postimg.cc/fRLD7m9M/traditional-award-transparent.png",
+        url: "https://i.postimg.cc/1zVRCR8s/traditional-award-transparent2.png",
         altText: "Traditional Award",
       },
     ],

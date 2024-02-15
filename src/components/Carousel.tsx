@@ -24,7 +24,7 @@ const TestimonialCarousel = (props: Iprops) => {
       gap: 48,
       classes: {
         nav: {
-          active: "[&>*]:bg-wuiSlate-700",
+          active: "[&>*]:bg-slate-700",
         },
       } as any,
       breakpoints: {

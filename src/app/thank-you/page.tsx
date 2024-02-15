@@ -8,7 +8,7 @@ export default function ThankYou() {
           Thank you!
         </h1>
         <p className="text-md md:text-xl lg:text-xl text-center text-black">
-          We'll be in touch soon to talk through your needs.
+          {"We'll be in touch soon to talk through your needs."}
         </p>
         <div className="pt-6">
           <a

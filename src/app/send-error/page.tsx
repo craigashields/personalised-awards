@@ -8,7 +8,7 @@ export default function SendError() {
           Something went wrong
         </h1>
         <p className="text-md md:text-xl lg:text-xl text-center text-black">
-          We're really sorry, something went wrong when sending your request
+          {"We're really sorry, something went wrong when sending your request"}
         </p>
         <div className="pt-6">
           <a

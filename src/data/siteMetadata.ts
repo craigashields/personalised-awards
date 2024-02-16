@@ -14,6 +14,6 @@ export const siteMetadata = {
   linkedin: "https://www.linkedin.com/company/personalised-awards/",
   instagram: "https://www.instagram.com/personalisedawards/",
   locale: "en-GB",
-  telephone: "01925 000000",
+  telephone: "01925 988979",
   contentDir: "/src/data/content",
 };

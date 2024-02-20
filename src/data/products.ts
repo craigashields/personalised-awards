@@ -122,8 +122,12 @@ const products = [
       "Add your personalised text",
     ],
     featuredImage:
-      "https://i.postimg.cc/y8bYy3YL/special-block-transparent2.png",
+      "https://i.postimg.cc/c42SJdgv/special-block-transparent-2.png",
     images: [
+      {
+        url: "https://i.postimg.cc/c42SJdgv/special-block-transparent-2.png",
+        altText: "Special Block Warrington Wolves",
+      },
       {
         url: "https://i.postimg.cc/y8bYy3YL/special-block-transparent2.png",
         altText: "Special Block Rylands F.C",

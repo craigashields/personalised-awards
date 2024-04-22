@@ -171,13 +171,14 @@ const products = [
     title: "Corporate",
     handle: "corporate",
 
-    price: "30.00",
-    description: "",
-    externalUrl: "",
+    price: "POA",
+    description:
+      "Check out some of our available corporate trophies. A full brochure is available below",
+    externalUrl: "https://trendsettingtrophies.co.uk/bc/personalised-awards/",
 
     features: [
-      "100% Recycled acrylic - shatter proof",
-      "Choose your colours",
+      "Huge selection of corporate trophies",
+      "A range of materials from metal, glass and crystal",
       "Add your club logo",
       "Add your personalised text",
     ],
@@ -196,7 +197,7 @@ const products = [
     price: "POA",
     description:
       "We can also supply traditional awards, a full brochure is available below",
-    externalUrl: "https://trendsettingtrophies.co.uk/",
+    externalUrl: "https://trendsettingtrophies.co.uk/bc/personalised-awards/",
 
     features: [
       "Huge selection of sports and activities",

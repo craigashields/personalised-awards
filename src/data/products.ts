@@ -64,12 +64,23 @@ const products = [
       "Add your club logo",
       "Add your personalised text",
     ],
-    featuredImage:
-      "https://i.postimg.cc/5tLDGr9m/premier-award-transparent.png",
+    featuredImage: "https://i.postimg.cc/qqtHCZdz/premier-award-sharks.jpg",
     images: [
       {
         url: "https://i.postimg.cc/5tLDGr9m/premier-award-transparent.png",
         altText: "Premier Award - Transparent",
+      },
+      {
+        url: "https://i.postimg.cc/sg5yc8GW/premier-award-rylands.jpg",
+        altText: "Premier Award - Rylands Football Club",
+      },
+      {
+        url: "https://i.postimg.cc/qqtHCZdz/premier-award-sharks.jpg",
+        altText: "Premier Award - Huddersfield Sharks",
+      },
+      {
+        url: "https://i.postimg.cc/7LV4v2VY/premier-award-woolston-u14.jpg",
+        altText: "Premier Award - Woolston U14s",
       },
     ],
     bestSeller: true,
@@ -89,7 +100,7 @@ const products = [
       "Add your club logo",
       "Add your personalised text",
     ],
-    featuredImage: "https://i.postimg.cc/R0bzM6JZ/shirt-award-transparent.png",
+    featuredImage: "https://i.postimg.cc/bwffsTVw/shirt-award-bolton.jpg",
     images: [
       {
         url: "https://i.postimg.cc/R0bzM6JZ/shirt-award-transparent.png",
@@ -102,6 +113,10 @@ const products = [
       {
         url: "https://i.postimg.cc/SNpHMS6H/shirt-award-wga.jpg",
         altText: "Shirt Award WGA",
+      },
+      {
+        url: "https://i.postimg.cc/bwffsTVw/shirt-award-bolton.jpg",
+        altText: "Shirt Award - Bolton",
       },
     ],
     bestSeller: false,
@@ -121,8 +136,7 @@ const products = [
       "Add your club logo",
       "Add your personalised text",
     ],
-    featuredImage:
-      "https://i.postimg.cc/c42SJdgv/special-block-transparent-2.png",
+    featuredImage: "https://i.postimg.cc/XJ10q6mR/special-block-rylands.jpg",
     images: [
       {
         url: "https://i.postimg.cc/c42SJdgv/special-block-transparent-2.png",
@@ -139,6 +153,22 @@ const products = [
       {
         url: "https://i.postimg.cc/x8Qft1wF/gallery-2.jpg",
         altText: "Special Block Rhino Rugby League",
+      },
+      {
+        url: "https://i.postimg.cc/MTpSzpP0/special-block-halton.jpg",
+        altText: "Special Block - Halton",
+      },
+      {
+        url: "https://i.postimg.cc/XJ10q6mR/special-block-rylands.jpg",
+        altText: "Special Block - Rylands FC",
+      },
+      {
+        url: "https://i.postimg.cc/sgPdShb9/special-block-st-helens.jpg",
+        altText: "Special Block St Helens",
+      },
+      {
+        url: "https://i.postimg.cc/CMtgVYjD/special-block-woolston.jpg",
+        altText: "Special Block Woolston",
       },
     ],
     bestSeller: true,
@@ -157,12 +187,25 @@ const products = [
       "Add your club logo",
       "Add your personalised text",
     ],
-    featuredImage: "https://i.postimg.cc/L8YfCYdM/bespoke-transparent.png",
+    featuredImage:
+      "https://i.postimg.cc/4N9TfM50/special-award-moorfield-tigers.jpg",
 
     images: [
       {
         url: "https://i.postimg.cc/L8YfCYdM/bespoke-transparent.png",
         altText: "Bespoke Award",
+      },
+      {
+        url: "https://i.postimg.cc/4N9TfM50/special-award-moorfield-tigers.jpg",
+        altText: "Bespoke Award - Moorfield Tigers",
+      },
+      {
+        url: "https://i.postimg.cc/nLZxwkqP/special-award-rabbitons.jpg",
+        altText: "Bespoke Award - Rabbitons",
+      },
+      {
+        url: "https://i.postimg.cc/6qDJVL9z/special-award-widnes.jpg",
+        altText: "Bespoke Award - Widnes",
       },
     ],
     bestSeller: false,
